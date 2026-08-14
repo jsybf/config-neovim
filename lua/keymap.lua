@@ -42,3 +42,4 @@ vim.keymap.set('n', '<leader>sd', telescope_builtin.diagnostics, { silent = true
 -- yazi
 vim.keymap.set("n", "<leader>-", function() require("yazi").yazi() end,{ silent = true, desc = 'yazi' })
 
+vim.keymap.set("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "Open Neogit UI" })

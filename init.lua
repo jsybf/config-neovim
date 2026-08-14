@@ -9,6 +9,7 @@ require('plugins.blink')
 require('plugins.yazi')
 require('plugins.nvim-treesitter')
 require('plugins.typst-preview')
+require('plugins.neogit')
 
 require('keymap')
 require('auto-command')

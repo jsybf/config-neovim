@@ -5,6 +5,10 @@
       "src": "https://github.com/saghen/blink.cmp",
       "version": "1.0.0 - 2.0.0"
     },
+    "codediff.nvim": {
+      "rev": "e08a35a56a52c290398ebfaec33c34cfcf2d0f3c",
+      "src": "https://github.com/esmuellert/codediff.nvim"
+    },
     "fish.vim": {
       "rev": "1f17a2a2b63c29120a690e3ac61ca3178a746c01",
       "src": "https://github.com/nickeb96/fish.vim"
@@ -24,6 +28,10 @@
     "monokai-pro.nvim": {
       "rev": "a68e38b8e55d69a215d0f02598900a79c356da9d",
       "src": "https://github.com/loctvl842/monokai-pro.nvim"
+    },
+    "neogit": {
+      "rev": "37e0f22a2345bad1bffe01b31970885882f46275",
+      "src": "https://github.com/NeogitOrg/neogit"
     },
     "nvim-tree.lua": {
       "rev": "8e8be709c9a93e1ebefde7964884a8b564bfd3e0",
