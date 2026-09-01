@@ -2,6 +2,7 @@
 
 vim.lsp.config['ty'] = {
     cmd = { "ty", "server" },
+    filetypes = { 'python' },
   -- settings = {
   --   ty = {
   --   }
