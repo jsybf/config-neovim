@@ -9,7 +9,8 @@ require('mason-tool-installer').setup {
     ensure_installed = {
         'lua-language-server',
         'fish-lsp',
-        'tinymist'
+        'tinymist',
+        'ty'
     }
 }
 
