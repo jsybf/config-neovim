@@ -30,9 +30,9 @@ local telescope_builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>sf', telescope_builtin.find_files, { silent = true, desc = 'telescope find_files' })
 vim.keymap.set('n', '<leader>sg', telescope_builtin.live_grep, { silent = true, desc = 'telescope live_grep' })
 vim.keymap.set('n', '<leader>sb', telescope_builtin.buffers, { silent = true, desc = 'telescope buffers' })
-vim.keymap.set('n', '<leader>sb', telescope_builtin.buffers, { silent = true, desc = 'telescope buffers' })
 vim.keymap.set('n', '<leader>sz', require('telescope').extensions.zoxide.list, { silent = true, desc = 'telescope zoxide' })
 vim.keymap.set('n', '<leader>sp', require('telescope').extensions.project.project, { silent = true, desc = 'telescope project' })
+vim.keymap.set( 'n', '<leader>/', telescope_builtin.current_buffer_fuzzy_find, { silent = true, desc = 'telescope project' })
 
 -- lsp related
 vim.keymap.set('n', '<leader>gg', telescope_builtin.lsp_definitions, { silent = true, desc = 'telescope lsp_definitons' })
@@ -41,5 +41,4 @@ vim.keymap.set('n', '<leader>sd', telescope_builtin.diagnostics, { silent = true
 
 -- yazi
 vim.keymap.set("n", "<leader>-", function() require("yazi").yazi() end,{ silent = true, desc = 'yazi' })
-
 vim.keymap.set("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "Open Neogit UI" })

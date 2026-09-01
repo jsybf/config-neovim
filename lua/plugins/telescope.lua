@@ -19,6 +19,11 @@ vim.pack.add({
 })
 
 require('telescope').setup {
+    pickers = {
+        current_buffer_fuzzy_find = {
+            theme = 'dropdown',
+        }
+    },
 	extensions = { ['ui-select'] = { require('telescope.themes').get_dropdown() } },
 }
 
