@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "base16-nvim": {
+      "rev": "09944b3120451d2881dc8cfb13c85c11949f477d",
+      "src": "https://github.com/RRethy/base16-nvim"
+    },
     "blink.cmp": {
       "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
       "src": "https://github.com/saghen/blink.cmp",
@@ -16,6 +20,10 @@
     "flexoki-neovim": {
       "rev": "c3e2251e813d29d885a7cbbe9808a7af234d845d",
       "src": "https://github.com/kepano/flexoki-neovim"
+    },
+    "jellybeans.nvim": {
+      "rev": "66c6ae6ebd977dcdd386ee0c30557c023c326a37",
+      "src": "https://github.com/wtfox/jellybeans.nvim"
     },
     "mason-tool-installer.nvim": {
       "rev": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc",
@@ -49,6 +57,14 @@
     "okcolors": {
       "rev": "fc3adc66edf6d146e28122e3872f1b402747f94c",
       "src": "https://github.com/e-q/okcolors.nvim"
+    },
+    "onedark.nvim": {
+      "rev": "df4792accde9db0043121f32628bcf8e645d9aea",
+      "src": "https://github.com/navarasu/onedark.nvim"
+    },
+    "onedarkpro.nvim": {
+      "rev": "ef009ae60769935a4eced9b3d545ae6013d3d271",
+      "src": "https://github.com/olimorris/onedarkpro.nvim"
     },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",

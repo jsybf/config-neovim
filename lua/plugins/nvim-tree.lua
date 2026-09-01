@@ -9,4 +9,5 @@ require('nvim-tree').setup {
                 git_ignored = false
         },
         sync_root_with_cwd = true,
+        git = { enable = false},
 }
