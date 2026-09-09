@@ -10,6 +10,7 @@ require('plugins.yazi')
 require('plugins.nvim-treesitter')
 require('plugins.typst-preview')
 require('plugins.neogit')
+require('plugins.aerial')
 
 require('keymap')
 require('auto-command')

@@ -1,3 +1,7 @@
+
+function basic_keymap_arg(desc)
+    return { silent = true, noremap = true, desc = desc }
+end
 -- basic keymap
 vim.keymap.set('i', 'jk', '<Esc>', { silent = true })
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>', { silent = true })
@@ -42,3 +46,7 @@ vim.keymap.set('n', '<leader>sd', telescope_builtin.diagnostics, { silent = true
 -- yazi
 vim.keymap.set("n", "<leader>-", function() require("yazi").yazi() end,{ silent = true, desc = 'yazi' })
 vim.keymap.set("n", "<leader>gg", "<cmd>Neogit<cr>", { desc = "Open Neogit UI" })
+
+-- aerial
+vim.keymap.set("n", "<F2>", "<cmd>AerialToggle! right<CR>",basic_keymap_arg('toggle aerial'))
+
