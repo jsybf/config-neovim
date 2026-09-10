@@ -25,6 +25,11 @@
       "rev": "c3e2251e813d29d885a7cbbe9808a7af234d845d",
       "src": "https://github.com/kepano/flexoki-neovim"
     },
+    "harpoon": {
+      "rev": "87b1a3506211538f460786c23f98ec63ad9af4e5",
+      "src": "https://github.com/ThePrimeagen/harpoon",
+      "version": "'harpoon2'"
+    },
     "jellybeans.nvim": {
       "rev": "66c6ae6ebd977dcdd386ee0c30557c023c326a37",
       "src": "https://github.com/wtfox/jellybeans.nvim"
