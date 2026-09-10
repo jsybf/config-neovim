@@ -1,8 +1,8 @@
 vim.pack.add({
-    { src = 'https://github.com/e-q/okcolors.nvim', name = 'okcolors' },
-    { src = 'https://github.com/junegunn/seoul256.vim' },
-    { src = 'https://github.com/RRethy/base16-nvim'},
-    { src = 'https://github.com/navarasu/onedark.nvim'},
+    -- { src = 'https://github.com/e-q/okcolors.nvim', name = 'okcolors' },
+    -- { src = 'https://github.com/junegunn/seoul256.vim' },
+    -- { src = 'https://github.com/RRethy/base16-nvim'},
+    -- { src = 'https://github.com/navarasu/onedark.nvim'},
     { src = 'https://github.com/wtfox/jellybeans.nvim'}
 })
 

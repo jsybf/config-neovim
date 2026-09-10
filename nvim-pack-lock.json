@@ -4,10 +4,6 @@
       "rev": "28fe6e822ae344544c379d60fcb13c9519a1f08a",
       "src": "https://github.com/stevearc/aerial.nvim"
     },
-    "base16-nvim": {
-      "rev": "09944b3120451d2881dc8cfb13c85c11949f477d",
-      "src": "https://github.com/RRethy/base16-nvim"
-    },
     "blink.cmp": {
       "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
       "src": "https://github.com/saghen/blink.cmp",
@@ -16,19 +12,6 @@
     "codediff.nvim": {
       "rev": "e08a35a56a52c290398ebfaec33c34cfcf2d0f3c",
       "src": "https://github.com/esmuellert/codediff.nvim"
-    },
-    "fish.vim": {
-      "rev": "1f17a2a2b63c29120a690e3ac61ca3178a746c01",
-      "src": "https://github.com/nickeb96/fish.vim"
-    },
-    "flexoki-neovim": {
-      "rev": "c3e2251e813d29d885a7cbbe9808a7af234d845d",
-      "src": "https://github.com/kepano/flexoki-neovim"
-    },
-    "harpoon": {
-      "rev": "87b1a3506211538f460786c23f98ec63ad9af4e5",
-      "src": "https://github.com/ThePrimeagen/harpoon",
-      "version": "'harpoon2'"
     },
     "jellybeans.nvim": {
       "rev": "66c6ae6ebd977dcdd386ee0c30557c023c326a37",
@@ -41,10 +24,6 @@
     "mason.nvim": {
       "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
       "src": "https://github.com/mason-org/mason.nvim"
-    },
-    "monokai-pro.nvim": {
-      "rev": "a68e38b8e55d69a215d0f02598900a79c356da9d",
-      "src": "https://github.com/loctvl842/monokai-pro.nvim"
     },
     "neogit": {
       "rev": "37e0f22a2345bad1bffe01b31970885882f46275",
@@ -63,33 +42,9 @@
       "rev": "dfbfaa967a6f7ec50789bead7ef87e336c1fa63c",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
-    "okcolors": {
-      "rev": "fc3adc66edf6d146e28122e3872f1b402747f94c",
-      "src": "https://github.com/e-q/okcolors.nvim"
-    },
-    "onedark.nvim": {
-      "rev": "df4792accde9db0043121f32628bcf8e645d9aea",
-      "src": "https://github.com/navarasu/onedark.nvim"
-    },
-    "onedarkpro.nvim": {
-      "rev": "ef009ae60769935a4eced9b3d545ae6013d3d271",
-      "src": "https://github.com/olimorris/onedarkpro.nvim"
-    },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
-    },
-    "rose-pine": {
-      "rev": "ff483051a47e27d84bdef47703538df1ed9f4a47",
-      "src": "https://github.com/rose-pine/neovim"
-    },
-    "seoul256": {
-      "rev": "726f88a77c02418aa5cb72a81c85bfb5ba2704d9",
-      "src": "https://github.com/shaunsingh/seoul256.nvim"
-    },
-    "seoul256.vim": {
-      "rev": "0357ff3e44faab66c98bc98dfc89c834e37012da",
-      "src": "https://github.com/junegunn/seoul256.vim"
     },
     "snipe.nvim": {
       "rev": "d2d196c335919767803f905d573ce66340e33ee6",
@@ -119,10 +74,6 @@
       "rev": "325036ee145ca51d9efb145c09ac16bce3bc8b7d",
       "src": "https://github.com/chomosuke/typst-preview.nvim",
       "version": "1.0.0 - 2.0.0"
-    },
-    "vim-paper": {
-      "rev": "d8decc44569aec6247bae54d971e658bb8108399",
-      "src": "https://github.com/yorickpeterse/vim-paper"
     },
     "yazi.nvim": {
       "rev": "fb72059eec58cffae9fcfc0105c71d5fbe69a214",
