@@ -11,6 +11,7 @@ require('plugins.nvim-treesitter')
 require('plugins.typst-preview')
 require('plugins.neogit')
 require('plugins.aerial')
+require('plugins.snipe')
 
 require('keymap')
 require('auto-command')

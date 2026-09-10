@@ -46,3 +46,7 @@ vim.keymap.set('n', '<leader>G', '<cmd>Neogit<cr>', basic_keymap_arg('Open Neogi
 
 -- aerial
 vim.keymap.set('n', '<F2>', '<cmd>AerialToggle! right<CR>', basic_keymap_arg('toggle aerial'))
+
+-- snipe
+local snipe = require('snipe')
+vim.keymap.set("n", "gb", snipe.open_buffer_menu)
