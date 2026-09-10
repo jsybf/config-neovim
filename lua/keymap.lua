@@ -2,24 +2,24 @@ local function basic_keymap_arg(desc)
     return { silent = true, noremap = true, desc = desc }
 end
 -- basic keymap
-vim.keymap.set('i', 'jk', '<Esc>', { silent = true })
-vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>', { silent = true })
-vim.keymap.set('n', '<leader>l', ':tabnext<CR>', { silent = true })
-vim.keymap.set('n', '<leader>h', ':tabprev<CR>', { silent = true })
-vim.keymap.set('n', '<C-s>', ':wa<CR>', { silent = true })
-vim.keymap.set('n', '<leader>tt', ':tab new<CR>', {silent = true})
-vim.keymap.set('n', '<leader>t', ':term<CR>', {silent = true})
+vim.keymap.set('i', 'jk', '<Esc>', basic_keymap_arg('exit insert mode'))
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>', basic_keymap_arg('clear search highlight'))
+vim.keymap.set('n', '<leader>l', ':tabnext<CR>', basic_keymap_arg('next tab'))
+vim.keymap.set('n', '<leader>h', ':tabprev<CR>', basic_keymap_arg('previous tab'))
+vim.keymap.set('n', '<C-s>', ':wa<CR>', basic_keymap_arg('save all'))
+vim.keymap.set('n', '<leader>tt', ':tab new<CR>', basic_keymap_arg('new tab'))
+vim.keymap.set('n', '<leader>t', ':term<CR>', basic_keymap_arg('open terminal'))
 
 -- nvim-tree
-vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>')
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', basic_keymap_arg('toggle nvim-tree'))
 
 local telescope_builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>sf', telescope_builtin.find_files, { silent = true, desc = 'telescope find_files' })
-vim.keymap.set('n', '<leader>sg', telescope_builtin.live_grep, { silent = true, desc = 'telescope live_grep' })
-vim.keymap.set('n', '<leader>sb', telescope_builtin.buffers, { silent = true, desc = 'telescope buffers' })
-vim.keymap.set('n', '<leader>sz', require('telescope').extensions.zoxide.list, { silent = true, desc = 'telescope zoxide' })
-vim.keymap.set('n', '<leader>sp', require('telescope').extensions.project.project, { silent = true, desc = 'telescope project' })
-vim.keymap.set( 'n', '<leader>/', telescope_builtin.current_buffer_fuzzy_find, { silent = true, desc = 'telescope project' })
+vim.keymap.set('n', '<leader>sf', telescope_builtin.find_files, basic_keymap_arg('telescope find_files'))
+vim.keymap.set('n', '<leader>sg', telescope_builtin.live_grep, basic_keymap_arg('telescope live_grep'))
+vim.keymap.set('n', '<leader>sb', telescope_builtin.buffers, basic_keymap_arg('telescope buffers'))
+vim.keymap.set('n', '<leader>sz', require('telescope').extensions.zoxide.list, basic_keymap_arg('telescope zoxide'))
+vim.keymap.set('n', '<leader>sp', require('telescope').extensions.project.project, basic_keymap_arg('telescope project'))
+vim.keymap.set('n', '<leader>/', telescope_builtin.current_buffer_fuzzy_find, basic_keymap_arg('telescope current_buffer_fuzzy_find'))
 
 vim.api.nvim_create_autocmd('LspAttach', {
     group = vim.api.nvim_create_augroup('lsp-keymap', { clear = true }),
@@ -41,11 +41,8 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 -- yazi
-vim.keymap.set("n", "<leader>-", function() require("yazi").yazi() end,{ silent = true, desc = 'yazi' })
-vim.keymap.set("n", "<leader>G", "<cmd>Neogit<cr>", { desc = "Open Neogit UI" })
+vim.keymap.set('n', '<leader>-', function() require('yazi').yazi() end, basic_keymap_arg('yazi'))
+vim.keymap.set('n', '<leader>G', '<cmd>Neogit<cr>', basic_keymap_arg('Open Neogit UI'))
 
 -- aerial
-vim.keymap.set("n", "<F2>", "<cmd>AerialToggle! right<CR>",basic_keymap_arg('toggle aerial'))
-
-
-
+vim.keymap.set('n', '<F2>', '<cmd>AerialToggle! right<CR>', basic_keymap_arg('toggle aerial'))
