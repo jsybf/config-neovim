@@ -12,6 +12,7 @@ require('plugins.typst-preview')
 require('plugins.neogit')
 require('plugins.aerial')
 require('plugins.snipe')
+require('plugins.arrow')
 
 require('keymap')
 require('auto-command')
