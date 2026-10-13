@@ -82,6 +82,10 @@
     "yazi.nvim": {
       "rev": "fb72059eec58cffae9fcfc0105c71d5fbe69a214",
       "src": "https://github.com/mikavilpas/yazi.nvim"
+    },
+    "zellij-nav.nvim": {
+      "rev": "1ecba144d67cc3d9b0ee4f7cdfd6f2ea78c1353b",
+      "src": "https://github.com/swaits/zellij-nav.nvim"
     }
   }
 }

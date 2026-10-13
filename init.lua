@@ -13,6 +13,7 @@ require('plugins.neogit')
 require('plugins.aerial')
 require('plugins.snipe')
 require('plugins.arrow')
+require('plugins.zellij-nav')
 
 require('keymap')
 require('auto-command')
