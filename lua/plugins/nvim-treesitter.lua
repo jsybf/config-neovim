@@ -13,6 +13,7 @@ local languages = {
 	'toml',
 	'typst',
 	'yaml',
+    'kdl'
 }
 
 require('nvim-treesitter').install(languages)
